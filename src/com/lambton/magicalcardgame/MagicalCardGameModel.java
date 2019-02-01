@@ -34,6 +34,7 @@ public class MagicalCardGameModel {
     }
 
     public void setFirstShuffleColPos(String firstShuffleColPos) {
+        System.out.println("inside set first shuffle"+firstShuffleColPos);
         this.firstShuffleColPos = firstShuffleColPos;
     }
 
@@ -58,7 +59,8 @@ public class MagicalCardGameModel {
     }
 
     public void setFirstShuffle(String[][] firstShuffle) {
-        if(getFirstShuffleColPos()=="0"){
+        System.out.println("inside setfirstshuffle");
+        if(this.firstShuffleColPos=="0"){
 
 
 
@@ -74,7 +76,12 @@ public class MagicalCardGameModel {
             this.firstShuffleresult[2][2]=firstShuffle[2][2];
 
 
-        this.firstShuffle = this.firstShuffleresult;
+       this.firstShuffle = this.firstShuffleresult;
+            System.out.println(firstShuffle[0][0]+" "+firstShuffle[1][0]+" "+firstShuffle[2][0]+" ");
+            System.out.println(firstShuffle[0][1]+" "+firstShuffle[1][1]+" "+firstShuffle[2][1]+" ");
+            System.out.println(firstShuffle[0][2]+" "+firstShuffle[1][2]+" "+firstShuffle[2][2]+" ");
+
+
     }
 
     }
