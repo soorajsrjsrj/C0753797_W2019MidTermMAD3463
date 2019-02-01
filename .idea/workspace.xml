@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40e82140-01ed-46bf-a786-8b1ddf8ed519" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/lambton/magicalcardgame/MagicalCardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lambton/magicalcardgame/MagicalCardGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lambton/magicalcardgame/MagicalCardGameModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lambton/magicalcardgame/MagicalCardGameModel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,7 +22,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lambton/magicalcardgame/MagicalCardGame.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -35,14 +34,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/lambton/magicalcardgame/MagicalCardGameModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+            <state relative-caret-position="204">
+              <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
               <folding>
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
                 <element signature="e#505#506#0" expanded="true" />
                 <element signature="e#544#545#0" expanded="true" />
                 <element signature="e#608#609#0" expanded="true" />
@@ -53,10 +50,10 @@
                 <element signature="e#826#827#0" expanded="true" />
                 <element signature="e#869#870#0" expanded="true" />
                 <element signature="e#904#905#0" expanded="true" />
-                <element signature="e#2653#2654#0" expanded="true" />
-                <element signature="e#2753#2754#0" expanded="true" />
-                <element signature="e#2825#2826#0" expanded="true" />
-                <element signature="e#2925#2926#0" expanded="true" />
+                <element signature="e#2818#2819#0" expanded="true" />
+                <element signature="e#2918#2919#0" expanded="true" />
+                <element signature="e#2990#2991#0" expanded="true" />
+                <element signature="e#3090#3091#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,8 +86,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/lambton/magicalcardgame/MagicalCardGameInterface.java" />
         <option value="$PROJECT_DIR$/src/com/lambton/magicalcardgame/MagicalCardGameCalculator.java" />
-        <option value="$PROJECT_DIR$/src/com/lambton/magicalcardgame/MagicalCardGameModel.java" />
         <option value="$PROJECT_DIR$/src/com/lambton/magicalcardgame/MagicalCardGame.java" />
+        <option value="$PROJECT_DIR$/src/com/lambton/magicalcardgame/MagicalCardGameModel.java" />
       </list>
     </option>
   </component>
@@ -132,7 +129,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548986652003" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548987111835" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -254,13 +251,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lambton/magicalcardgame/MagicalCardGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lambton/magicalcardgame/MagicalCardGameModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+        <state relative-caret-position="204">
+          <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
           <folding>
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
             <element signature="e#505#506#0" expanded="true" />
             <element signature="e#544#545#0" expanded="true" />
             <element signature="e#608#609#0" expanded="true" />
@@ -271,20 +276,10 @@
             <element signature="e#826#827#0" expanded="true" />
             <element signature="e#869#870#0" expanded="true" />
             <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#2653#2654#0" expanded="true" />
-            <element signature="e#2753#2754#0" expanded="true" />
-            <element signature="e#2825#2826#0" expanded="true" />
-            <element signature="e#2925#2926#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lambton/magicalcardgame/MagicalCardGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2818#2819#0" expanded="true" />
+            <element signature="e#2918#2919#0" expanded="true" />
+            <element signature="e#2990#2991#0" expanded="true" />
+            <element signature="e#3090#3091#0" expanded="true" />
           </folding>
         </state>
       </provider>

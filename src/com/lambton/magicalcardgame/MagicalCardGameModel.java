@@ -59,8 +59,10 @@ public class MagicalCardGameModel {
     }
 
     public void setFirstShuffle(String[][] firstShuffle) {
-        System.out.println("inside setfirstshuffle");
-        if(this.firstShuffleColPos=="0"){
+        System.out.println("inside setfirstshuffle"+firstShuffleColPos);
+        String a="0";
+        if((firstShuffleColPos).equals("0")){
+            System.out.println("inside if");
 
 
 
