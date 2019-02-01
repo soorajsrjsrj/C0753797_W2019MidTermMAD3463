@@ -10,6 +10,7 @@ public class MagicalCardGameModel {
     String guessedCard;
 
     public String getFirstShuffleColPos() {
+        
         return firstShuffleColPos;
     }
 
