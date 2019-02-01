@@ -19,11 +19,10 @@ public class MagicalCardGame {
        // gs.setGuessedCard(b);
         System.out.println("After guessing the number please press enter: ");
         String b=sc.nextLine();
+        System.out.println("First shuffle col position");
+        String c=sc.nextLine();
+        gs.setFirstShuffleColPos(c);
 
-
-
-
-        System.out.println();
 
 
 

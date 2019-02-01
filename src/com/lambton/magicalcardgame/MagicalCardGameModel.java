@@ -9,8 +9,25 @@ public class MagicalCardGameModel {
     String [][]secShuffle=null;
     String guessedCard;
 
+    public MagicalCardGameModel(String firstShuffleColPos, String secShuffleColPos, String[][] cardList, String[][] firstShuffle, String[][] secShuffle, String guessedCard) {
+        this.firstShuffleColPos = firstShuffleColPos;
+        this.secShuffleColPos = secShuffleColPos;
+        this.cardList = cardList;
+        this.firstShuffle = firstShuffle;
+        this.secShuffle = secShuffle;
+        this.guessedCard = guessedCard;
+    }
+
+    public MagicalCardGameModel(MagicalCardGameModel model) {
+
+    }
+
+    public MagicalCardGameModel() {
+
+    }
+
     public String getFirstShuffleColPos() {
-        
+
         return firstShuffleColPos;
     }
 
