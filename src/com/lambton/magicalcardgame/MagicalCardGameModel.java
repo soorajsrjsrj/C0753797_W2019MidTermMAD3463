@@ -64,21 +64,25 @@ public class MagicalCardGameModel {
         if((firstShuffleColPos).equals("0")){
             System.out.println("inside if");
 
+            System.out.println(firstShuffle[0][0]+" "+firstShuffle[1][0]+" "+firstShuffle[2][0]+" ");
 
 
 
-        this.firstShuffleresult[1][0]=firstShuffle[0][0];
-            this.firstShuffleresult[1][1]=firstShuffle[1][0];
-            this.firstShuffleresult[1][2]=firstShuffle[2][0];
-            this.firstShuffleresult[0][0]=firstShuffle[0][1];
-            this.firstShuffleresult[0][1]=firstShuffle[1][1];
-            this.firstShuffleresult[0][2]=firstShuffle[2][1];
-            this.firstShuffleresult[2][0]=firstShuffle[0][2];
-            this.firstShuffleresult[2][1]=firstShuffle[1][2];
-            this.firstShuffleresult[2][2]=firstShuffle[2][2];
 
 
-       this.firstShuffle = this.firstShuffleresult;
+
+            this.firstShuffle[1][0]=firstShuffle[0][0];
+            this.firstShuffle[1][1]=firstShuffle[1][0];
+            this.firstShuffle[1][2]=firstShuffle[2][0];
+            this.firstShuffle[0][0]=firstShuffle[0][1];
+            this.firstShuffle[0][1]=firstShuffle[1][1];
+            this.firstShuffle[0][2]=firstShuffle[2][1];
+            this.firstShuffle[2][0]=firstShuffle[0][2];
+            this.firstShuffle[2][1]=firstShuffle[1][2];
+            this.firstShuffle[2][2]=firstShuffle[2][2];
+
+
+      // this.firstShuffle = this.firstShuffleresult;
             System.out.println(firstShuffle[0][0]+" "+firstShuffle[1][0]+" "+firstShuffle[2][0]+" ");
             System.out.println(firstShuffle[0][1]+" "+firstShuffle[1][1]+" "+firstShuffle[2][1]+" ");
             System.out.println(firstShuffle[0][2]+" "+firstShuffle[1][2]+" "+firstShuffle[2][2]+" ");
