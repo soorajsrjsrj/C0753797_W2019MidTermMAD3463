@@ -22,8 +22,15 @@ public class MagicalCardGame {
         System.out.println("First shuffle col position");
         String c=sc.nextLine();
         gs.setFirstShuffleColPos(c);
+        gs.setFirstShuffle(w);
+        String s[][]=gs.getFirstShuffle();
+        System.out.println(s);
+        /*+" "+s[1][0]+" "+s[2][0]+" ");
+        System.out.println(s[0][1]+" "+s[1][1]+" "+s[2][1]+" ");
+        System.out.println(s[0][2]+" "+s[1][2]+" "+s[2][2]+" ");
 
 
+*/
 
 
 
